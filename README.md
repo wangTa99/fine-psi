@@ -362,7 +362,3 @@ yarn run build
 ```bash
 yarn run lint
 ```
-
-点赞
-----
-如果您觉得本项目还可以，请点个star~ ^_^ 
