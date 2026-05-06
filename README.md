@@ -240,79 +240,86 @@ http://117.72.79.154
 
 
 采购订单
-采购订单
+<img width="1399" height="801" alt="image" src="https://github.com/user-attachments/assets/ae9874b4-6586-48aa-a8d0-78be3d931edd" />
 
-采购订单 - 编制和自定义列
-采购订单-编制和自定义列
-
-采购订单 - 源单
-采购订单-源单
 
 销售订单 - 执行情况
-销售订单-执行情况
-
-销售订单 - 毛利润
-销售订单-毛利润
-
-销售业务员业绩
-销售业务员业绩
+<img width="1310" height="728" alt="image" src="https://github.com/user-attachments/assets/8f0261ec-9961-4db6-bf66-1738a20aa5eb" />
 
 单据审批 - 手机钉钉
-单据审批-手机钉钉
+<img width="2124" height="2160" alt="image" src="https://github.com/user-attachments/assets/573ad7f4-1ea7-4732-8aab-230abd5705be" />
 
-单据打印
-单据打印
-
-发起流程
-发起流程
-
-我的待办
-我的待办
-
-审批
-审批
 
 流程图
-流程图
+<img width="1298" height="880" alt="image" src="https://github.com/user-attachments/assets/3ffd1bda-4eba-4147-ae3f-9e9459464809" />
+
 
 在线流程模型设计
-流程模型设计
+<img width="1443" height="700" alt="image" src="https://github.com/user-attachments/assets/d444e790-eb46-4ed4-8dff-4c8d84e322f2" />
 
-在线表单设计
-表单设计
 
 技术架构
+
 开发环境
+
 语言：Java 8
+
 IDE(JAVA)： IDEA (必须安装lombok插件 )
+
 IDE(前端)： Vscode、WebStorm、IDEA
+
 依赖管理：Maven
+
 缓存：Redis
+
 数据库脚本：MySQL5.7
+
 后端
 基础框架：Spring Boot 2.6
+
 微服务框架： Spring Cloud Alibaba 2021.0.1.0
+
 持久层框架：MybatisPlus 3.5
+
 报表工具： JimuReport 1.6.6
+
 安全框架：Apache Shiro 1.13.0，Jwt 3.11.0
+
 微服务技术栈：Spring Cloud Alibaba、Nacos、Gateway、Sentinel、Skywalking
+
 数据库连接池：阿里巴巴Druid 1.1.23
+
 日志打印：logback
+
 其他：autopoi, fastjson，poi，Swagger-ui，quartz, lombok（简化代码）等。
+
 前端
 基础框架：ant-design-vue - Ant Design Of Vue 实现
+
 JavaScript框架：Vue2
+
 node 12
+
 yarn
+
 @vue/cli 3.2.1
+
 vue-cropper - 头像裁剪组件
+
 @antv/g2 - Alipay AntV 数据可视化图表
+
 Viser-vue - antv/g2 封装实现
+
 Vue 2.6.10,Vuex,Vue Router
+
 Axios
+
 webpack,yarn
+
 eslint，@vue/cli 3.2.1
+
 vue-print-nb-jeecg - 打印
+
 开发环境搭建
 前端环境
 安装node.js
