@@ -1,24 +1,49 @@
-Fine 进销存系统
+Finer 进销存系统
+===============
+
+[![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)]()
+[![](https://img.shields.io/badge/Author-FINER团队-orange.svg)]()
+[![](https://img.shields.io/badge/version-2.1.1-brightgreen.svg)]()
+
 介绍
-Finer 进销存系统是一款面向中小企业的管理软件，基于二十多年的中小企业管理经验，由ERP领域的资深专家分析设计； 以jeecgboot(Vue2)为基础平台开发，前后端分离架构SpringBoot2.x、Ant Design&Vue、Mybatis-plus、Shiro、JWT； 具有方便快捷的定制和二次开发能力，在jeecgboot支撑下，利用其强大的代码生成器，无需写任何代码就可以快速实现大多功能， 也可手工加入复杂的业务逻辑，快速满足中小企业灵活多样的个性化需求！
+-----------------------------------
+Finer 进销存系统是一款面向中小企业的管理软件，基于二十多年的中小企业管理经验，由ERP领域的资深专家分析设计；
+以jeecgboot(Vue2)为基础平台开发，前后端分离架构SpringBoot2.x、Ant Design&Vue、Mybatis-plus、Shiro、JWT；
+具有方便快捷的定制和二次开发能力，在jeecgboot支撑下，利用其强大的代码生成器，无需写任何代码就可以快速实现大多功能，
+也可手工加入复杂的业务逻辑，快速满足中小企业灵活多样的个性化需求！
 
-社区版：实现进销存业务的结果管理，直接出入库并自动生成应收应付，进行收付款并自动核销应收应付。 社区版不包括采购管理、销售管理、扫码出入库、安卓App，详看后面的功能模块说明。
+ - 社区版：实现进销存业务的结果管理，直接出入库并自动生成应收应付，进行收付款并自动核销应收应付。
+   社区版不包括采购管理、销售管理、扫码出入库、安卓App，详看后面的功能模块说明。  
+   
+ - 标准版：实现进销存业务的全过程管理，包括申请、询价、报价、比价、订单、出入库、生产出入库、应收应付、收付款、发票登记等的业务全过程，
+   自动跟踪单据的处理情况，实时反映库存、客户欠款和欠供应商款等情况，集成钉钉等第三方审批系统；
+   支持扫码出入库和库存盘点，在PC浏览器中可接扫描枪扫码，在手机App中可使用相机扫码。  
+   
+ - 审批流版：在标准版的基础上，内置了审批流功能，提供从‌流程设计、流程执行、流程监控、数据分析到业务集成‌的全方位能力，
+   可与OA、ERP、CRM、MES等业务系统无缝集成。
+ 
+交流与支持
+-----------------------------------
+- 微信： cfm999-qq-com
+- 邮件： cfm999@qq.com 
 
-标准版：实现进销存业务的全过程管理，包括申请、询价、报价、比价、订单、出入库、生产出入库、应收应付、收付款、发票登记等的业务全过程， 自动跟踪单据的处理情况，实时反映库存、客户欠款和欠供应商款等情况，集成钉钉等第三方审批系统； 支持扫码出入库和库存盘点，在PC浏览器中可接扫描枪扫码，在手机App中可使用相机扫码。
-
-审批流版：在标准版的基础上，内置了审批流功能，提供从‌流程设计、流程执行、流程监控、数据分析到业务集成‌的全方位能力， 可与OA、ERP、CRM、MES等业务系统无缝集成。
-
-演示系统地址
+演示系统（标准版）
+-----------------------------------
 http://117.72.79.154
-用户名：psi
-密　码：123456
-浏览器：Chrome、Edge、Firefox、360浏览器，不建议IE
-
-说　明：
-手机App：在PC端“登录页面”右下角，使用手机浏览器扫码下载。
-为方便正常演示，请不要：删除已有的或他人的数据、修改演示用户密码等影响演示的数据。
+- 用户名：psi
+- 密　码：123456
+- 浏览器：Chrome、Edge、Firefox、360浏览器，不建议IE
+- 说　明：
+  - 手机App：在PC端“登录页面”右下角，使用手机浏览器扫码下载。
+  - 为方便正常演示，请不要：删除已有的或他人的数据、修改演示用户密码等影响演示的数据。
+  - 演示用户未开放部分在线开发和系统管理功能，如需要全功能，可联系我们！
+  - 如需要审批流版演示，可联系我们！
+  - 如有问题，可联系我们！
+！
 
 功能模块
+-----------------------------------
+```
 ┌─App（标准版、审批流版，目前仅支持安卓）
 │
 ├─销售管理 （标准版、审批流版）
@@ -230,133 +255,142 @@ http://117.72.79.154
    ├─系统编码校验规则 - 功能已开放
    ├─多数据源管理 - 功能已开放
    └─DEMO
+```
+   
 系统效果
-登录
-<img width="545" height="514" alt="image" src="https://github.com/user-attachments/assets/0bdee019-1d35-45da-ac1b-63aea3f887ad" />
+-------
+#### 登录
+![登录](images/登录.png "登录.png")
+#### 首页
+![首页](images/首页.png "首页.png")
+#### 采购订单
+![采购订单](images/采购订单.png "采购订单.png")
+### 采购订单 - 编制和自定义列
+![采购订单-编制和自定义列](images/采购订单-编制&自定义列.png "采购订单-编制&自定义列.png")
+#### 采购订单 - 源单
+![采购订单-源单](images/采购订单-源单.png "采购订单-源单.png")
+### 销售订单 - 执行情况
+![销售订单-执行情况](images/销售订单-执行情况.png "销售订单-执行情况.png")
+#### 销售订单 - 毛利润
+![销售订单-毛利润](images/销售订单-毛利润.png "销售订单-毛利润.png")
+#### 销售业务员业绩
+![销售业务员业绩](images/销售业务员业绩.png "销售业务员业绩.png")
+#### 单据审批 - 手机钉钉
+![单据审批-手机钉钉](images/单据审批-手机钉钉.png "单据审批-手机钉钉.png")
+#### 单据打印
+![单据打印](images/单据打印.png "单据打印.png")
 
-
-首页
-<img width="1489" height="906" alt="image" src="https://github.com/user-attachments/assets/f3a7c378-c17d-41f1-84fa-38bd1e4c2968" />
-
-
-采购订单
-<img width="1399" height="801" alt="image" src="https://github.com/user-attachments/assets/ae9874b4-6586-48aa-a8d0-78be3d931edd" />
-
-
-销售订单 - 执行情况
-<img width="1310" height="728" alt="image" src="https://github.com/user-attachments/assets/8f0261ec-9961-4db6-bf66-1738a20aa5eb" />
-
-单据审批 - 手机钉钉
-<img width="2124" height="2160" alt="image" src="https://github.com/user-attachments/assets/573ad7f4-1ea7-4732-8aab-230abd5705be" />
-
-
-流程图
-<img width="1298" height="880" alt="image" src="https://github.com/user-attachments/assets/3ffd1bda-4eba-4147-ae3f-9e9459464809" />
-
-
-在线流程模型设计
-<img width="1443" height="700" alt="image" src="https://github.com/user-attachments/assets/d444e790-eb46-4ed4-8dff-4c8d84e322f2" />
-
-
+#### 发起流程
+![发起流程](images/发起流程.png "发起流程.png")
+#### 我的待办
+![我的待办](images/我的待办.png "我的待办.png")
+#### 审批
+![审批](images/审批.png "审批.png")
+#### 流程图
+![流程图](images/流程图.png "流程图.png")
+#### 在线流程模型设计
+![流程模型设计](images/流程模型设计.png "流程模型设计.png")
+#### 在线表单设计
+![表单设计](images/表单设计.png "表单设计.png")
+   
 技术架构
+-----------------------------------
+#### 开发环境
+- 语言：Java 8
+- IDE(JAVA)： IDEA (必须安装lombok插件 )
+- IDE(前端)： Vscode、WebStorm、IDEA
+- 依赖管理：Maven
+- 缓存：Redis
+- 数据库脚本：MySQL5.7
 
-开发环境
+#### 后端
+- 基础框架：Spring Boot 2.6
+- 微服务框架： Spring Cloud Alibaba 2021.0.1.0
+- 持久层框架：MybatisPlus 3.5
+- 报表工具： JimuReport 1.6.6
+- 安全框架：Apache Shiro 1.13.0，Jwt 3.11.0
+- 微服务技术栈：Spring Cloud Alibaba、Nacos、Gateway、Sentinel、Skywalking
+- 数据库连接池：阿里巴巴Druid 1.1.23
+- 日志打印：logback
+- 其他：autopoi, fastjson，poi，Swagger-ui，quartz, lombok（简化代码）等。
 
-语言：Java 8
+#### 前端
+- 基础框架：[ant-design-vue](https://github.com/vueComponent/ant-design-vue) - Ant Design Of Vue 实现
+- JavaScript框架：Vue2
+- node 12
+- yarn
+- @vue/cli 3.2.1
+- [vue-cropper](https://github.com/xyxiao001/vue-cropper) - 头像裁剪组件
+- [@antv/g2](https://antv.alipay.com/zh-cn/index.html) - Alipay AntV 数据可视化图表
+- [Viser-vue](https://viserjs.github.io/docs.html#/viser/guide/installation)  - antv/g2 封装实现
+- [Vue 2.6.10](https://cn.vuejs.org/),[Vuex](https://vuex.vuejs.org/zh/),[Vue Router](https://router.vuejs.org/zh/)
+- [Axios](https://github.com/axios/axios)
+- [webpack](https://www.webpackjs.com/),[yarn](https://yarnpkg.com/zh-Hans/)
+- eslint，[@vue/cli 3.2.1](https://cli.vuejs.org/zh/guide)
+- vue-print-nb-jeecg - 打印
 
-IDE(JAVA)： IDEA (必须安装lombok插件 )
-
-IDE(前端)： Vscode、WebStorm、IDEA
-
-依赖管理：Maven
-
-缓存：Redis
-
-数据库脚本：MySQL5.7
-
-后端
-基础框架：Spring Boot 2.6
-
-微服务框架： Spring Cloud Alibaba 2021.0.1.0
-
-持久层框架：MybatisPlus 3.5
-
-报表工具： JimuReport 1.6.6
-
-安全框架：Apache Shiro 1.13.0，Jwt 3.11.0
-
-微服务技术栈：Spring Cloud Alibaba、Nacos、Gateway、Sentinel、Skywalking
-
-数据库连接池：阿里巴巴Druid 1.1.23
-
-日志打印：logback
-
-其他：autopoi, fastjson，poi，Swagger-ui，quartz, lombok（简化代码）等。
-
-前端
-基础框架：ant-design-vue - Ant Design Of Vue 实现
-
-JavaScript框架：Vue2
-
-node 12
-
-yarn
-
-@vue/cli 3.2.1
-
-vue-cropper - 头像裁剪组件
-
-@antv/g2 - Alipay AntV 数据可视化图表
-
-Viser-vue - antv/g2 封装实现
-
-Vue 2.6.10,Vuex,Vue Router
-
-Axios
-
-webpack,yarn
-
-eslint，@vue/cli 3.2.1
-
-vue-print-nb-jeecg - 打印
 
 开发环境搭建
-前端环境
-安装node.js
+----
+### 前端环境
+#### 安装node.js
 安装node.js 12
-
+```bash
 # 验证
 # 出现相应npm版本即可
 npm -v
 # 出现相应node版本即可
 node -v
-安装yarn
+```
+#### 安装yarn
+```bash
 # 全局安装yarn
 npm i -g yarn
 # 验证
 # 出现对应版本号即代表安装成功
 yarn -v 
-配置镜像
+```
+
+#### 配置镜像
+```bash
 npm config set registry https://registry.npmmirror.com --global
 npm config set disturl https://registry.npmmirror.com/dist --global
 
 yarn config set registry https://registry.npmmirror.com --global
 yarn config set disturl https://registry.npmmirror.com/dist --global
-后端环境
-ideaIU-2019.2.3.exe
-jdk-8u191-windows-x64.exe
-apache-maven-3.5.4.zip
-redis64-3.0.501
-mysql-5.7.26-winx64.zip
+```
+
+### 后端环境
+- ideaIU-2019.2.3.exe
+- jdk-8u191-windows-x64.exe
+- apache-maven-3.5.4.zip
+- redis64-3.0.501
+- mysql-5.7.26-winx64.zip
+
 项目下载和运行
-拉取项目代码
+----
+- 拉取项目代码
+```bash
 git clone https://gitee.com/FINERME/psi.git
 cd  psi/ant-design-vue-jeecg
-安装依赖
+```
+- 安装依赖
+```bash
 yarn install
-开发模式启动
+```
+- 开发模式启动
+```bash
 yarn run serve
-编译项目
+```
+- 编译项目
+```bash
 yarn run build
-Lints and fixes files
+```
+- Lints and fixes files
+```bash
 yarn run lint
+```
+
+点赞
+----
+如果您觉得本项目还可以，请点个star~ ^_^ 
