@@ -232,10 +232,12 @@ http://117.72.79.154
    └─DEMO
 系统效果
 登录
-登录
+<img width="545" height="514" alt="image" src="https://github.com/user-attachments/assets/0bdee019-1d35-45da-ac1b-63aea3f887ad" />
+
 
 首页
-首页
+<img width="1489" height="906" alt="image" src="https://github.com/user-attachments/assets/f3a7c378-c17d-41f1-84fa-38bd1e4c2968" />
+
 
 采购订单
 采购订单
